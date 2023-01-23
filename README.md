@@ -42,7 +42,8 @@ volumes:
 
 Under services > wordpress > volumes lägger du till sökvägen där den lokala miljön används:
 
-````code
+```yml
+
     volumes:
       - db:/var/www/html
       - ./wp-content:/var/www/html/wp-content
